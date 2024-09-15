@@ -1,0 +1,38 @@
+[
+    {
+        "image": "../images/aang.png",
+        "name": "aang"
+    },
+    {
+        "image": "../images/appa.png",
+        "name": "appa"
+    },
+    {
+        "image": "../images/azula.png",
+        "name": "azula"
+    },
+    {
+        "image": "../images/cabbage_man.png",
+        "name": "cabbage man"
+    },
+    {
+        "image": "../images/katara.png",
+        "name": "katara"
+    },
+    {
+        "image": "../images/momo.png",
+        "name": "momo"
+    },
+    {
+        "image": "../images/ozai.png",
+        "name": "ozai"
+    },
+    {
+        "image": "../images/toph.png",
+        "name": "toph"
+    },
+    {
+        "image": "../images/zuko.png",
+        "name": "zuko"
+    }
+]

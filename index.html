@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+
+    <title>Avatar Memory Game</title>
+</head>
+<body>
+    <h1>Avatar Memory Cards</h1>
+
+    <!------ The cards will be lined up in this container ------>
+    <div class="grid-container"></div>
+
+    <!------ Adding bootstrap progress bar ------>
+    <div id="progress-bar-parent">
+        <div id="progress-bar" class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width:0%">
+            <p><span id="progress">0%</span> Complete</p>
+        </div>
+    </div>
+    
+
+    <p id="score">Score: <span class="score"></span></p>
+
+    <!------ Adding buttons for additional functionality ------>
+    <div class="buttons">
+        <button onclick="restart()">Restart</button>
+        <button onclick="toggleScore()">Toggle Score</button>
+    </div>
+
+    <!------ Ensuring all the dom elements are loaded before adding functionaity ------>
+    <script src="index.js"></script>
+</body>
+</html>
